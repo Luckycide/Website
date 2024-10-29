@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
             script.onload = () => {
                 new Twitch.Embed("twitch-stream", {
                     width: "100%",
-                    height: "480",
+                    height: "720",
                     channel: "Luckycide", // Replace with your actual Twitch username
                     layout: "video", // Options: "video" or "chat" or "video-with-chat"
                     autoplay: false, // Set to true to start the stream automatically
