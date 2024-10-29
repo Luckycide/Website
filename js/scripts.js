@@ -20,9 +20,10 @@ document.addEventListener('DOMContentLoaded', function() {
                     layout: "video-with-chat", // Options: "video" or "chat" or "video-with-chat"
                     autoplay: false, // Set to true to start the stream automatically
                         // Only needed if this page is going to be embedded on other websites
-                    parent: ["https://www.twitch.tv/luckycide.com", "https://www.Luckycide.com"]
+                    parent: ["luckycide.com"]
                 });
             };
         }
     }
 });
+
