@@ -17,10 +17,10 @@ document.addEventListener('DOMContentLoaded', function() {
                     width: "100%",
                     height: "480",
                     channel: "Luckycide", // Replace with your actual Twitch username
-                    layout: "video-with-chat", // Options: "video" or "chat" or "video-with-chat"
+                    layout: "video", // Options: "video" or "chat" or "video-with-chat"
                     autoplay: false, // Set to true to start the stream automatically
                         // Only needed if this page is going to be embedded on other websites
-                    parent: ["luckycide.com"]
+                    parent: ["www.luckycide.com", "luckycide.com"]
                 });
             };
         }
